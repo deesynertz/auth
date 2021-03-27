@@ -1,12 +1,37 @@
 {
-  "name": "auth",
+  "name": "@axetrixhub/auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "auth node module then foget abuot re-write it again",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "keywords": [],
-  "author": "deesynertz <deesynertz@gmail.com>",
-  "license": "MIT"
+  "author": {
+    "name": "deesynertz",
+    "email": "axetrixhub@gmail.com"
+  },
+  "repository": {
+    "directory": "deesynertz/auth",
+    "type": "https",
+    "url": "https://github.com/deesynertz/auth.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysqli": "^3.0.11"
+  }
 }
