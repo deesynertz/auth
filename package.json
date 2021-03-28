@@ -1,5 +1,5 @@
 {
-  "name": "@axetrixhub/auth",
+  "name": "@deesynertz/auth",
   "version": "1.0.0",
   "description": "auth node module then foget abuot re-write it again",
   "main": "app.js",
@@ -13,9 +13,8 @@
     "email": "axetrixhub@gmail.com"
   },
   "repository": {
-    "directory": "deesynertz/auth",
-    "type": "https",
-    "url": "https://github.com/deesynertz/auth.git"
+    "type": "git",
+    "url": "git+https://github.com/deesynertz/auth.git"
   },
   "license": "MIT",
   "devDependencies": {
