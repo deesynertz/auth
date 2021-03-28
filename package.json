@@ -1,5 +1,5 @@
 {
-  "name": "@deesynertz/auth",
+  "name": "msp-auth",
   "version": "1.0.0",
   "description": "auth node module then foget abuot re-write it again",
   "main": "app.js",
